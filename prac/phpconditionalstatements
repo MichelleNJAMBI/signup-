@@ -1,0 +1,46 @@
+<?php
+$age = 50;
+
+//if statement
+if($age > 30)
+{
+    echo "Your age is greater than 30!";
+}
+//ifelse statement
+$no =10;
+if($no%2==0){
+    echo "my no is even";
+}
+else
+{
+    echo "my no is odd";
+}
+//switch statement
+$day ="Wednesday";
+
+switch($day){
+    case'Monday':
+        echo "Today is monday";
+        break;
+        case'Tuesday':
+            echo "Today is Tuesday";
+            break;
+            case'Wednesday':
+                echo "Today is Wednesday";
+                break;
+                case'Thursday':
+                    echo "Today is Thursday";
+                    break;
+                    case'Friday':
+                        echo "Today is Friday";
+                        break;
+                        case'Saturday':
+                            echo "Today is Saturday";
+                            break;
+                            case'Sunday':
+                                echo "Today is Sunday";
+                                break;
+                                default:
+                                echo "day does not exist";
+}
+?>

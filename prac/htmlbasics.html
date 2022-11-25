@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--Embedding php code in html-->
+    <?php
+    echo"Hello world"
+    ?>
+    <form>
+        <div class="row" style="margin: 100px; padding: 100px;">
+            <div>
+                <label>Username:</label><br>
+                <input type="text" class="form-control">
+            </div><br>
+            <div>
+                <label>Password:</label><br>
+                <input type="password" class="form-control">
+            </div>
+            <div>
+                <input type="checkbox" class="form-check-input">
+                <label for="login">keep me logged in</label>
+                <button class="btn btn-primary" type="button">login</button>
+            </div>
+            <div>
+                <p>Don't have an account? <a href="#!">sign up</a></p>
+            </div>
+        </div>
+    </form>
+    
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
